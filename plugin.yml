@@ -1,0 +1,21 @@
+name: Toolz
+main: toolz.Main
+version: 2.3
+author: hytykateur
+commands:
+   spawn:
+      description: Make return to spawn
+      usage: /spawn [player]
+      permission: toolz.spawn
+   toolz:
+      description: Basic command
+      usage: /toolz [opts]
+      permission: toolz.basic
+   market:
+      description: Base Market
+      usage: /market [player]
+      permission: toolz.market
+   invec:
+      description: Open ec of player
+      usage: /invec
+      permission: toolz.invec
